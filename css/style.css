@@ -41,7 +41,7 @@ header nav ul li:first-of-type a{
 font-size: 13px;
 }
 header nav ul li:last-of-type a{
-    background: #FFFFFF;
+background: #FFFFFF;
 border-radius: 14px;
 padding: 11px 20px;
 color: #000000;
@@ -52,4 +52,106 @@ letter-spacing: 0.4px;
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 86px);
+}
+
+.container_studio{
+    padding-top: 466px;
+    padding-bottom: 71px;
+    margin: auto;
+    max-width: 580px;
+    display: block;
+    }
+.h3_studio{
+    padding: 0 0 1px 0;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+.h1_studio{
+    padding: 0 0 18px 0;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+.p_studio{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #C0C0C0;
+
+}
+.section_help{
+    padding-top: 113px;
+    padding-bottom: 108px;
+    background: #000000;
+    margin: auto;
+    
+}
+.container_help{
+    max-width: 571px;
+   margin: auto;
+   display: block;
+    
+}
+.h2_help{
+    padding: 0 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    
+}
+.help_content{
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.p_help{
+padding: 0 0 22px 0;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #C0C0C0;
+
+}
+.b_touch{
+padding: 9px 10px 13px 6px;
+background: #FFFFFF;
+border-radius: 14px;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.4px;
+color: #000000;
+display: inline-flex;
+align-items: center;
+}
+.b_black::before{
+content: "";
+display: inline-block;
+width: 32px;
+height: 32px;
+background-color: #000000;
+border-radius: 50%;
+margin-right: 4px;
 }
