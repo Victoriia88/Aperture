@@ -361,16 +361,15 @@ header nav ul li:last-of-type a {
 }
 
 .content_wmd {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
+    display: flex;
 }
 
 .product {
     max-width: 576px;
     position: relative;
-
+    margin-bottom: 15px;
 }
 
 .img_product {
@@ -418,4 +417,8 @@ header nav ul li:last-of-type a {
 
 .w_w{
     max-width: 480px;
+}
+.con_content{
+    max-width: 1168px;
+    margin: auto;
 }
