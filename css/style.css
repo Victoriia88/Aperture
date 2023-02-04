@@ -422,3 +422,233 @@ header nav ul li:last-of-type a {
     max-width: 1168px;
     margin: auto;
 }
+.tools{
+    position: relative;
+    background-color: #000000;
+}
+.tools .img_bg{
+    width: 50%;
+    position: absolute;
+    height: 100%;background-image: url(../images/background.jpg);
+    background-size: cover;
+    right: 0;
+    top: 0;
+}
+.tools .container{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 540px;
+}
+
+.tools .information{
+    max-width: 514px;
+    color: #FFFFFF;
+    padding-top: 173px;
+    padding-bottom: 153px;
+}
+.information_h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+padding-bottom: 6px;
+}
+.information_h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+padding: bottom 14px;
+}
+.information_p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
+
+footer{
+    padding: 100px 0;
+    background-color: #000000;
+}
+footer .container{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #FFFFFF;
+    padding-bottom: 26px;
+}
+footer .container:last-of-type{
+border: none;
+max-width: 1168px;
+}
+.left_logo .logo_p{
+    padding-top: 10px;
+}
+.left_cont{
+padding: 36px 0 10px 0;
+}
+.logo_h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.logo_p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .right_sub-menu{
+    display: flex;
+    align-items: flex-start;
+}
+footer .right_sub-menu ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+footer .right_sub-menu ul:first-of-type{
+    margin-right: 55px;
+}
+footer .right_sub-menu ul:last-of-type{
+margin-right: 100px;
+}
+footer .right_sub-menu ul li:first-of-type{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+padding-bottom: 10px;}
+
+footer .right_sub-menu ul a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+footer form{
+background: #F9FAFB;
+border: 1px solid #E5E7EB;
+border-radius: 12px;
+max-width: 458px;
+width: 100%;
+height: 52px;
+padding: 11px 6px;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 40px 0 14px 0;
+}
+footer form .form-control{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 80%;
+    display: inline-block;
+}
+footer form button{
+    background-color: #000000;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    width: 63px;
+    cursor: pointer;
+}
+.int_logo{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 56px;}
+
+.inst_logo{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+
+.f_lic{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+padding-top: 56px;
+
+}
+.past_clients{
+    padding-top: 113px;
+    padding-bottom: 140px;
+    background: #000000;
+}
+.p_c{
+    max-width: 1076px;
+    margin: auto;
+}
+.icons_p_c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.p_c_h3{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 15px;
+}
+.p_c_h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 82px;
+}
+.icons_f{
+padding: 24px 0;
+}
+.icons_t{
+padding: 29px 0;
+}
+.icons_fr{
+padding: 21px 0;
+}
+.icons_fv{
+padding: 23px 0;
+}
